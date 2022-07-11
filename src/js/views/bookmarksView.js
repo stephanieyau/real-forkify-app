@@ -11,7 +11,7 @@ class BookmarksView extends View {
     window.addEventListener('load', handler);
   }
 
-  // I don't understand this part
+  // Confused about this part - remember to review
   _generateMarkup() {
     return this._data
       .map(bookmark => previewView.render(bookmark, false))
